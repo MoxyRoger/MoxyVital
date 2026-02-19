@@ -1,0 +1,5 @@
+Output/
+obj/
+*.emSession
+*.emLayout
+*.user
