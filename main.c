@@ -839,6 +839,8 @@ void GUI_handle_uart_cmds(void)
         {
             teststate = TEST_STATE_PREP;
             starttime = uptime;
+            loadnum = 0;
+            cuffnum = 0;
             snprintf(cmd_resp, sizeof(cmd_resp),"Received Start\r\n\r\n");
         }
         else
